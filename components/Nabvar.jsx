@@ -4,7 +4,6 @@ export default function Nabvar() {
   return (
     <div className="bg-amber-200 flex justify-between items-center w-full px-6 py-6">
       <div>
-        {" "}
         <a href="#">
           <img src="../src/assets/cutting-board.png" alt="" />
         </a>
@@ -24,7 +23,7 @@ export default function Nabvar() {
             prueba Gaizka
           </a>
           <a className="hover:text-stone-400 " href="#">
-            prueba Haniel 
+            prueba Haniel
           </a>
         </ul>
       </div>
