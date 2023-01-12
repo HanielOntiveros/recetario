@@ -23,6 +23,9 @@ export default function Nabvar() {
           <a className="hover:text-stone-400 " href="#">
             prueba Gaizka
           </a>
+          <a className="hover:text-stone-400 " href="#">
+            prueba Haniel 
+          </a>
         </ul>
       </div>
     </div>
