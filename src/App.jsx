@@ -6,7 +6,7 @@ function App() {
     <>
       <Nabvar />
       <div className="">
-        <h1 className="text-4xl font-bold text-center  ">
+        <h1 className="text-4xl font-bold text-center my-4">
           Recetario Haniel + Gaizka
         </h1>
       </div>

@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Nabvar() {
   return (
-    <div className="bg-amber-200 flex justify-between items-center w-full px-6 py-6">
-      <div>
-        <a href="#">
-          <img src="../src/assets/cutting-board.png" alt="" />
-        </a>
-      </div>
-      <div>
+   <header className="bg-amber-50 flex justify-around w-full px-6 py-6 font ">
+         <div className="flex justify-start ">
+          <a href="#">
+            <img src="../src/assets/cutting-board.png" alt="" />
+          </a>
+        </div>
+      <nav className="flex justify-end">
         <ul className="flex gap-12 mx-3">
           <a className="hover:text-stone-400 " href="#">
             Recetas
@@ -20,7 +20,11 @@ export default function Nabvar() {
             Contacto
           </a>
         </ul>
-      </div>
-    </div>
+        
+      </nav> 
+      
+    </header>
+    
+    
   );
 }

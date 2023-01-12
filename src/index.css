@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.font {
+    @apply font-sans text-lg  text-neutral-900 font-medium
+}
