@@ -21,7 +21,7 @@ export default function Nabvar() {
             Contacto
           </a>
           <a className="hover:text-stone-400 " href="#">
-            Home
+            prueba Gaizka
           </a>
         </ul>
       </div>
