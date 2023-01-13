@@ -5,3 +5,7 @@
 .font {
     @apply font-sans text-lg  text-neutral-900 font-medium
 }
+
+.text-hover{
+    @apply hover:underline hover:text-stone-400
+}

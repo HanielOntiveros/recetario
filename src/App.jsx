@@ -1,15 +1,14 @@
 import React from "react";
 import Nabvar from "../components/Nabvar";
+import Main from "../components/Main"
+import Footer from "../components/Footer";
 
 function App() {
   return (
     <>
       <Nabvar />
-      <div className="">
-        <h1 className="text-4xl font-bold text-center my-4">
-          Recetario Haniel + Gaizka
-        </h1>
-      </div>
+      <Main/>
+      <Footer/>
     </>
   );
 }
